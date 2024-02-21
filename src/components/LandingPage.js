@@ -5,7 +5,9 @@ import Header from './Header'
 function LandingPage() {
   return (
     <div>
-      <Header />
+      <h2>
+        Hi
+      </h2>
     </div>
   );
 }
