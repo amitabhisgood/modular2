@@ -1,12 +1,12 @@
 // LandingPage.js
 import React from 'react';
-import Header from './components/Header';
+import Header from './Header';
 
 
 function LandingPage(){
   return (
     <div>
-
+      <Header />
     </div>
   );
 }
