@@ -1,4 +1,5 @@
-const { useState } = React;
+import React, { useState } from 'react';
+import HeroSection from './HeroSection';
 
 function CenterComponent({ showRegisterForm, setShowRegisterForm }) {
   const registerClicked = (e) => {

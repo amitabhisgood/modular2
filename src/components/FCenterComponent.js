@@ -1,4 +1,6 @@
-const { useState } = React;
+import React, {useState} from 'react';
+import LeftComponent from './LeftComponent';
+import CenterComponent from './CenterComponent';
 
 function FCenterComponent() {
   const [showRegisterForm, setShowRegisterForm] = useState(false);
