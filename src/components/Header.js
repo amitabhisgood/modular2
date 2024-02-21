@@ -1,4 +1,4 @@
-const { useState } = React;
+import React, {useState} from 'react';
 
 function Header() {
       const [username, setUsername] = useState('');
